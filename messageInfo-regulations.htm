@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="no-js">
+  <head>
+    <meta name="robots" content="noindex" />
+    <!-- 使用 noindex 禁止 Google 搜尋建立索引，套版時請工程師刪掉這行 -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>桃園市政府文化局桃園文學館</title>
+    <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries [if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- hyUI css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+  </head>
+  <!-- 內頁body新增一個classname -->
+  <body class="pagebody">
+    <!-- 直接跳主內容區 -->
+    <a class="goCenter" href="#aC" tabindex="1">按Enter到主內容區</a>
+    <!-- wrapper Start -->
+    <div class="wrapper">
+      <!-- header Start 內頁新增一個classname-->
+      <header class="header full pageheader wow fadeInDown" data-wow-duration=".5s" data-wow-delay=".1s">
+        <div class="container">
+          <a class="accesskey" href="#aU" id="aU" accesskey="U" title="網站標題" tabindex="2">:::</a>
+          <h1>
+            <a href="index.htm"><img src="images/logo.png" alt="" />桃園文學館</a>
+          </h1>
+          <!-- navigation Start -->
+          <nav class="navigation" role="navigation" aria-label="上方導覽列">
+            <!-- 新增div navlist -->
+            <div class="navlist">
+              <ul>
+                <li><a href="#">回首頁</a></li>
+                <li><a href="#">網站導覽</a></li>
+                <li><a href="#">常見問答</a></li>
+                <li><a href="#">聯絡我們</a></li>
+                <li><a href="#">English</a></li>
+              </ul>
+            </div>
+
+            <!-- font_size -->
+            <div class="font_size">
+              <button class="fontsize_btn" title="字型大小">字型大小：</button>
+              <ul>
+                <li><a href="#" role="button" aria-pressed="false" class="small">小</a></li>
+                <li><a href="#" role="button" aria-pressed="true" class="medium active">中</a></li>
+                <li><a href="#" role="button" aria-pressed="false" class="large">大</a></li>
+              </ul>
+              <!-- 當選取時出現active時，判斷 aria-pressed="true"  -->
+            </div>
+          </nav>
+          <!-- navigation End -->
+
+          <!-- Search Start -->
+          <div class="search" role="search">
+            <div class="form_grp">
+              <label for="mustSameAsId">搜尋</label>
+              <input name="username" id="mustSameAsId" type="text" placeholder="請輸入文字" accesskey="S" title="請輸入文字" aria-label="搜尋網站內容" />
+              <input name="" type="submit" value="查詢" class="btn btn-search" />
+            </div>
+            <div class="btn_grp">
+              <input name="" type="submit" value="進階搜尋" class="btn" />
+            </div>
+            <div class="keywordHot">
+              <ul>
+                <li><a href="#">熱門熱門</a></li>
+                <li><a href="#">查詢</a></li>
+                <li><a href="#">字詞三</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Search End -->
+          <!-- noscript -->
+          <noscript>
+            您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。您的瀏覽器，不支援script語法，若您的瀏覽器無法支援請點選此超連結
+            <a href="#">網站導覽</a>
+          </noscript>
+          <!-- menu Start -->
+          <nav class="menu" role="navigation" aria-label="主選單">
+            <ul>
+              <li>
+                <a href="#" role="button" aria-expanded="false">關於桃園文學館</a>
+                <!-- a連結有下一層選單，當成按鈕需加入role="button” ，當選單尚未展開，請判斷為aria-expanded="false"，選單展開後，請判斷為aria-expanded="true"-->
+                <ul>
+                  <li><a href="#">創立歷程</a></li>
+                  <li><a href="#">目標展望</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="true">參觀資訊</a>
+                <!-- 選單展開後，請判斷為aria-expanded="true" -->
+                <ul>
+                  <li><a href="#">開放時間</a></li>
+                  <li><a href="#">參觀須知</a></li>
+                  <li><a href="#">空間介紹</a></li>
+                  <li><a href="#">交通資訊</a></li>
+                  <li><a href="#">無障礙服務資訊</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">展覽與活動</a>
+                <ul>
+                  <li><a href="#">行事曆</a></li>
+                  <li><a href="#">展覽</a></li>
+                  <li><a href="#">活動</a></li>
+                </ul>
+              </li>
+              <li><a href="#">消息公告</a></li>
+              <!-- 單純 a連結，不需加入role="button” -->
+              <li>
+                <a href="#" role="button" aria-expanded="false">鍾肇政文學獎</a>
+                <ul>
+                  <li><a href="#">背景介紹</a></li>
+                  <li><a href="#">徵文辦法／線上申請</a></li>
+                  <li><a href="#">桃園文學季</a></li>
+                  <li><a href="#">歷屆得獎作品</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">文學補助 </a>
+                <ul>
+                  <li><a href="#">補助公告</a></li>
+                  <li><a href="#">線上申請</a></li>
+                  <li><a href="#">歷屆補助名單</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">桃園文學專區</a>
+                <ul>
+                  <li><a href="#">認識桃園文學</a></li>
+                  <li><a href="#">桃園文學史及年表</a></li>
+                  <li><a href="#">桃園文學作家地圖</a></li>
+                  <li><a href="#">影音資源</a></li>
+                  <li><a href="#">桃園作家作品資源(書目)</a></li>
+                  <li><a href="#">桃園書影</a></li>
+                </ul>
+              </li>
+              <li><a href="#">文物典藏</a></li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">便民服務</a>
+                <ul>
+                  <li><a href="#">場地租借</a></li>
+                  <li><a href="#">導覽服務</a></li>
+                  <li><a href="#">志工服務</a></li>
+                  <li><a href="#">相關連結</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- menu End -->
+        </div>
+      </header>
+      <!-- header End -->
+      <!-- main Start -->
+      <div id="aC" class="main full innerpage">
+        <!-- 內頁新增一個classname-->
+        <div class="topPic">
+          <img src="images/top_pic.jpg" alt="" />
+        </div>
+        <a class="accesskey" href="#ac" id="ac" accesskey="C" title="主要內容區">:::</a>
+        <div class="container">
+          <!-- 主要內容區 -->
+          <div class="center_block">
+            <!-- breadcrumb路徑 -->
+            <div class="breadcrumb">
+              <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">鍾肇政文學獎</a></li>
+                <li>線上申請</li>
+              </ul>
+            </div>
+            <!-- h2節點 -->
+            <h2 class="title">線上申請</h2>
+            <!-- function_panel -->
+            <div class="function_panel">
+              <!-- function功能區塊 -->
+              <div class="function">
+                <ul>
+                  <li class="back"><a href="javascript:history.back()">回上一頁</a></li>
+                  <li class="print"><a href="#">友善列印</a></li>
+                  <li class="forward"><a href="#">轉寄友人</a></li>
+                </ul>
+              </div>
+              <!-- 社群分享 -->
+              <div class="share">
+                <ul>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_facebook.svg" alt="facebook" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_twitter.svg" alt="twitter" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_line.svg" alt="line" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_youtube.svg" alt="youtube" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_googleplus.svg" alt="google plus" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_instagram.svg" alt="instagram" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_linkedin.svg" alt="LinkedIn" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_rss.svg" alt="RSS" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="images/basic/icon_plurk.svg" alt="Plurk" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- CP Start -->
+            <section class="cp">
+              <!-- msginfo -->
+              <div class="msginfo">
+                <h3 class="aCenter">「2025桃園鍾肇政文學獎」徵文辦法</h3>
+                <h4>徵選資格</h4>
+                <p>不限定國籍，不限定題材，惟須以繁體中文書寫。以未曾發表（含演出、網路、實體出版）、未曾獲獎之作品為限，翻譯、改寫作品不予受理。</p>
+                <h4>徵文類別</h4>
+                <ul>
+                    <li>長篇小說類：80,000字至100,000為原則。</li>
+                    <li>短篇小說類：8,000-12,000字為原則。</li>
+                    <li>新詩類：40行以內為原則。</li>
+                    <li>童話類：1,000-4,000字為原則。</li>
+                    <li>散文類：3,000-5,000字為原則。</li>
+                </ul>
+                <h4>投稿方式</h4>
+                <p>所有文類皆採線上投稿方式：</p>
+                <ol>
+                    <li>收件時間自即日起至113年8月10日23:59截止。以上傳時間為憑，逾期恕不受理。不接受重複上傳修訂，且收件截止後稿件恕不予變更。</li>
+                    <li>請至「桃園鍾肇政文學獎」辦法公告之「徵文辦法」處點選表單連結，填妥個人資料及報名表相關欄位，並上傳徵選作品電子檔。待執行單位確認投稿相關資料無誤後，將回傳「確認信件」至表單內所填寫之Email，請自行保存該信件作為憑證；若於7天內皆未收到該信件，請洽詢02-8692-5588分機5325張小姐。</li>
+                </ol>
+                <h4>作品規範</h4>
+                <ol>
+                    <li>應徵作品一律以電腦繕打，採直式橫書書寫。文字應採12號新細明體，並須以現行通用中　　文標點符號。作品題目一律見於第一頁最前端，以A4大小紙張直式編列頁碼，格式統一為PDF檔。</li>
+                    <li>應徵作品必須未曾在任何形式的平面和網路媒體發表，包含但不限於：(一)各級機關政府、政黨、學校及其所屬單位所主辦/合辦/承辦/策畫之計畫。(二)學校單位主辦或出品之計畫。 (三)為學位而進行之計畫。(四)在任何報刊、雜誌、網站、部落格等發表過；已輯印成書或出版作品者皆不得參賽。</li>
+                    <li>應徵作品不得違背本文學獎宗旨、我國法令或公序良俗。</li>
+                    <li>嚴禁冒名頂替、抄襲、共同書寫、使用AI等人工智能軟體創作。如有以上情事，將公布其真實姓名及相關資訊。</li>
+                    <li>如有違反前述四至六項任一種情形者，經評審委員會決議後，將取消參賽資格；已得獎者，將追回獎金及獎座或獎狀，並公布其違規情形之事實。</li>
+                </ol>
+                <h4>注意事項</h4>
+                <ol>
+                    <li>每類限參選一篇為限，但參加之徵文類別數量不受限制。獲桃園鍾肇政文學獎歷屆首獎或正獎者，三年內不得參加同一文類。（得獎後第四年始能參加）。</li>
+                    <li>得獎作品之作者享有著作人格權及著作財產權，並授權主辦單位自得獎公告日起五年內，在任何地方、任何時間以合理方式利用、轉授權他人進行非營利推廣權利。著作人不得撤銷此項授權，且主辦單位不需因此支付任何費用。</li>
+                    <li>基於舉辦文學獎、智慧財產權及相關行政辦理之目的蒐集，同意提供主辦單位個人資料，包括下列項目：姓名、性別、生日、電話、Email、簡歷及身分證字號等報名相關資料，於本文學獎舉辦期間至主辦單位法定保管期限屆滿，主辦單位得蒐集、處理及利用上述個人資料。</li>
+                    <li>得獎作品如有著作權或其他法令糾紛訴訟，經評審委員會決議或法律程序敗訴確定者，主辦單位得取消其得獎資格，損害第三人權利者，由作者自行負責，概與主辦單位無涉。若因參賽者言行或其作品致主辦單位名譽受損，主辦單位得以追償其法律責任。</li>
+                    <li>投稿者皆視為認同本徵文辦法，報名時已詳讀所有規定。</li>
+                    <li>依所得稅法規定，得獎者須就中獎所得代扣稅額。</li>
+                </ol>
+                <h4>授權同意</h4>
+                <p>參加徵文所有文類皆代表同意遵守徵文辦法，並聲明以下事項：</p>
+                <ol>
+                    <li>申請所填報的各項資料均屬事實。</li>
+                    <li>所有參賽作品之著作人格權與著作財產權，同意無償授權主辦單位字得獎公告日起五年內，在任何地區、任何時間以合理方式利用、轉授權他人進行非營利推廣使用。</li>
+                    <li>得獎作品由主辦單位與聯經出版公司合作出版，作品內容由作者校對及文責自負。得獎者享有著作人格權及著作財產權。</li>
+                </ol>
+              </div>
+            </section>
+            <!-- CP End -->
+          </div>
+        </div>
+      </div>
+      <!-- fatfooter Start -->
+      <section class="fatfooter">
+        <div class="container">
+          <button type="button" name="展開選單/OPEN" aria-label="導覽選單展開/收合" class="btn btn-fatfooter">收合</button>
+          <nav aria-label="fatfooter的導航列">
+            <ul>
+              <li>
+                <a href="#">關於桃園文學館</a>
+                <ul>
+                  <li><a href="#">創立歷程</a></li>
+                  <li><a href="#">目標展望</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">參觀資訊</a>
+                <ul>
+                  <li><a href="#">開放時間</a></li>
+                  <li><a href="#">參觀須知</a></li>
+                  <li><a href="#">空間介紹</a></li>
+                  <li><a href="#">交通資訊</a></li>
+                  <li><a href="#">無障礙服務資訊</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">展覽與活動</a>
+                <ul>
+                  <li><a href="#">行事曆</a></li>
+                  <li><a href="#">展覽</a></li>
+                  <li><a href="#">活動</a></li>
+                </ul>
+              </li>
+              <li><a href="#">消息公告</a></li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">鍾肇政文學獎</a>
+                <ul>
+                  <li><a href="#">背景介紹</a></li>
+                  <li><a href="#">徵文辦法／線上申請</a></li>
+                  <li><a href="#">桃園文學季</a></li>
+                  <li><a href="#">歷屆得獎作品</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">文學補助 </a>
+                <ul>
+                  <li><a href="#">補助公告</a></li>
+                  <li><a href="#">線上申請</a></li>
+                  <li><a href="#">歷屆補助名單</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">桃園文學專區</a>
+                <ul>
+                  <li><a href="#">認識桃園文學</a></li>
+                  <li><a href="#">桃園文學史及年表</a></li>
+                  <li><a href="#">桃園文學作家地圖</a></li>
+                  <li><a href="#">影音資源</a></li>
+                  <li><a href="#">桃園作家作品資源(書目)</a></li>
+                  <li><a href="#">桃園書影</a></li>
+                </ul>
+              </li>
+              <li><a href="#">文物典藏</a></li>
+              <li>
+                <a href="#" role="button" aria-expanded="false">便民服務</a>
+                <ul>
+                  <li><a href="#">場地租借</a></li>
+                  <li><a href="#">導覽服務</a></li>
+                  <li><a href="#">志工服務</a></li>
+                  <li><a href="#">相關連結</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="f_share">
+            <ul>
+              <li>
+                <a href="#"><img src="images/icon_youtube.png" alt="youtube" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon_line.png" alt="line" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon_facebook.png" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/icon_instagram.png" alt="instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- fatfooter End -->
+      <!-- footer Start-->
+      <footer>
+        <div class="container">
+          <a class="accesskey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a>
+          <div class="footerBlock">
+            <div class="footer_logo">
+              <img src="images/f_logo.png" alt="桃園文學館" class="img-responsive" />
+            </div>
+            <div class="footer_info">
+              <p class="title">桃園文學館</p>
+              <p>
+                地址：330206桃園市桃園區忠孝街11號<br />
+                電話：(03)3322592
+              </p>
+            </div>
+            <div class="footer_icon">
+              <a target="_blank" href="javascript:;">
+                <img src="images/basic/accessibility_aa.jpg" alt="通過AA優先等級無障礙網頁檢測,另開新視窗" />
+              </a>
+            </div>
+          </div>
+
+          <hr />
+          <p class="Copyright">Copyright © 桃園縣政府文化局 All Rights Reserved.</p>
+          <ul class="footer_link">
+            <li><a href="javascript:;">隱私權及資訊安全</a></li>
+            <li class="update">更新日期:<em>113-11-16</em></li>
+            <li class="counter">瀏覽人次:<em>167,892</em></li>
+          </ul>
+        </div>
+      </footer>
+      <!-- footer End -->
+    </div>
+    <a href="javascript:;" class="scrollToTop">回頁首</a>
+    <!-- JQ -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- ease -->
+    <script src="vendor/jquery.easing.min.js"></script>
+    <!-- lazyload -->
+    <script src="vendor/lazyload/lazyload.js"></script>
+    <!-- scrolltable -->
+    <script src="vendor/scrolltable/jquery.scroltable.min.js"></script>
+    <!-- fancybox -->
+    <script src="vendor/fancybox/fancybox.umd.js"></script>
+    <script src="vendor/fancybox/l10n/zh_TW.umd.js"></script>
+    <!-- swiper -->
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/wow.js"></script>
+    <script>
+      wow = new WOW({
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+          console.log('WOW: animating <' + box.tagName.toLowerCase() + '>');
+        },
+      });
+      wow.init();
+    </script>
+    <!-- <script src="js/anime.js"></script> -->
+
+    <!-- hyUI -->
+    <script src="js/main.js"></script>
+    <!-- 客製js -->
+    <script src="js/customize.js"></script>
+  </body>
+</html>
