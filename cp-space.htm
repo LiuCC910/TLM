@@ -244,15 +244,15 @@
                 <a href="#D">D區－文友．同行</a>
               </p>
 
-			<img src="images/demo/space.png" usemap="#image-map" id="map">
+			<img src="images/demo/space.png" usemap="#image-map" id="map" class="map">
 
-			<map name="image-map">
-				<area target="" alt="A區" title="A區" href="#A" coords="685,347,875,719" shape="rect">
-				<area target="" alt="B區" title="B區" href="#B" coords="883,486,1355,719" shape="rect">
-				<area target="" alt="C區" title="C區" href="#C" coords="1366,280,1555,719" shape="rect">
-				<area target="" alt="D區" title="D區" href="#D" coords="1030,280,1355,420" shape="rect">
-        <area target="" alt="結尾" title="測試不規則形狀" href="#End" coords="886,115,824,193,906,275,1064,255,1193,255,1193,115" shape="poly">
-			</map>
+<map name="image-map">
+<area target="" alt="A區" title="A區" href="#A" coords="685,347,875,719" shape="rect">
+<area target="" alt="B區" title="B區" href="#B" coords="883,486,1355,719" shape="rect">
+<area target="" alt="C區" title="C區" href="#C" coords="1366,280,1555,719" shape="rect">
+<area target="" alt="D區" title="D區" href="#D" coords="1030,280,1355,420" shape="rect">
+<area target="" alt="結尾" title="測試不規則形狀" href="#End" coords="886,115,824,193,906,275,1064,255,1193,255,1193,115" shape="poly">
+</map>
               
 			  <a name="A"></a>
         <div class="placard">
@@ -679,16 +679,22 @@
     <!-- 客製js -->
     <script src="js/customize.js"></script>
 
-    <script src="jQuery-rwdImageMaps-master/jquery.rwdImageMaps.js"></script>
-<script>
-$(document).ready(function (e) {
+    <script src="vendor/jQuery-rwdImageMaps-master/jquery.rwdImageMaps.js"></script>
+    <script>
+    $(document).ready(function (e) {
 
-    $('img#map').rwdImageMaps();
-    
-    $('area').on('mouseover', function (e) {
-        $(this).focus();
+        $('img#map').rwdImageMaps();
+        
+        $('area').on('mouseover', function (e) {
+            $(this).focus();
+        });
     });
-});
-</script>
+    </script>
+    <script type="text/javascript" src="vendor/maphilight-master/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">$(function() {
+          $('.map').maphilight();
+      });
+    </script>
+
   </body>
 </html>
